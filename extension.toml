@@ -1,0 +1,12 @@
+id = "typescript-import-folds"
+name = "TypeScript Import Folds"
+version = "0.1.0"
+schema_version = 1
+authors = ["Joey Liu <joey.liu@hiorka.com>"]
+description = "Fold the leading block of `import` statements in TypeScript / TSX files, the way VS Code does."
+repository = "https://github.com/liuzhch-orka/zed-typescript-import-folds"
+
+[language_servers.ts-import-folds]
+name = "TypeScript Import Folds"
+# Add "JavaScript" / "JSX" here if you want the same behaviour in JS files.
+languages = ["TypeScript", "TSX"]

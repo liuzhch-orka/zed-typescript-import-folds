@@ -1,0 +1,4 @@
+/target
+scratch/
+# written into this directory by Zed when it builds the dev extension
+/extension.wasm
